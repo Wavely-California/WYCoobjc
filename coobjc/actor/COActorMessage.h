@@ -17,7 +17,7 @@
 //   limitations under the License.
 
 #import <Foundation/Foundation.h>
-#import <coobjc/COActorCompletable.h>
+#import <WYCoobjc/COActorCompletable.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

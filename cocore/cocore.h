@@ -6,11 +6,11 @@
 //  Copyright © 2019 Alibaba lnc. All rights reserved.
 //
 
-#import <cocore/coroutine.h>
-#import <cocore/co_csp.h>
-#import <cocore/co_queue.h>
-#import <cocore/co_autorelease.h>
-#import <cocore/CODispatch.h>
+#import <WYCoobjc/coroutine.h>
+#import <WYCoobjc/co_csp.h>
+#import <WYCoobjc/co_queue.h>
+#import <WYCoobjc/co_autorelease.h>
+#import <WYCoobjc/CODispatch.h>
 
 
 //! Project version number for cocore.

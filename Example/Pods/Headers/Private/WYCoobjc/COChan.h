@@ -1,0 +1,1 @@
+../../../../../coobjc/co/COChan.h

@@ -18,7 +18,7 @@
 
 #import "NSArray+Coroutine.h"
 #import "COKitCommon.h"
-#import <coobjc/coobjc.h>
+#import <WYCoobjc/coobjc.h>
 
 @implementation NSArray (Coroutine)
 

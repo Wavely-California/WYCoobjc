@@ -17,7 +17,7 @@
 //   limitations under the License.
 
 #import <Foundation/Foundation.h>
-#import <coobjc/coobjc.h>
+#import <WYCoobjc/coobjc.h>
 
 @interface NSData (COPromise)
 

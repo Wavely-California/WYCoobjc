@@ -17,10 +17,10 @@
 //   limitations under the License.
 
 #import <Foundation/Foundation.h>
-#import <coobjc/COCoroutine.h>
-#import <coobjc/COActorMessage.h>
-#import <coobjc/COActorChan.h>
-#import <coobjc/COActorCompletable.h>
+#import <WYCoobjc/COCoroutine.h>
+#import <WYCoobjc/COActorMessage.h>
+#import <WYCoobjc/COActorChan.h>
+#import <WYCoobjc/COActorCompletable.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

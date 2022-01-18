@@ -17,7 +17,7 @@
 //   limitations under the License.
 
 #import <Foundation/Foundation.h>
-#import <coobjc/COPromise.h>
+#import <WYCoobjc/COPromise.h>
 
 /**
  The promise for actor message.

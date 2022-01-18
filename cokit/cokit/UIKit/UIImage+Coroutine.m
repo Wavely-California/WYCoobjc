@@ -18,7 +18,7 @@
 
 #import "UIImage+Coroutine.h"
 #import "COKitCommon.h"
-#import <coobjc/coobjc.h>
+#import <WYCoobjc/coobjc.h>
 
 @implementation UIImage (Coroutine)
 

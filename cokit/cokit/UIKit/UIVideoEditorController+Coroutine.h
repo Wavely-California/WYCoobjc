@@ -17,7 +17,7 @@
 //   limitations under the License.
 
 #import <UIKit/UIKit.h>
-#import <coobjc/coobjc.h>
+#import <WYCoobjc/coobjc.h>
 
 @interface UIVideoEditorController (Coroutine)
 

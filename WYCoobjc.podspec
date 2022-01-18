@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "WYCoobjc"
-  s.version      = "0.0.1"
+  s.version      = "0.1.0"
   s.summary      = "A coroutine framework for Objective-C"
 
   s.description  = <<-DESC
@@ -20,17 +20,13 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
 
-  s.source =  { :git => "git@github.com:Wavely-California/wavely_coobjc.git", :tag => s.version }
+  # s.source =  { :git => "git@github.com:Wavely-California/wavely_coobjc.git", :tag => s.version }
+  s.source =  { :git => "../", :tag => s.version }
 
   s.subspec 'cocore' do |ss|
-    ss.library = 'c++'
     ss.source_files = 'cocore/*.{h,m,s,c,mm}'
-    ss.requires_arc = 'cocore/*.m'
-  end
-
-  s.subspec 'cokit' do |ss|
-    ss.source_files = 'cokit/cokit/**/*.{h,m}'
-    ss.dependency 'WYCoobjc/coobjc'
+    ss.requires_arc = 'WYCoobjc/cocore/*.m'
+    ss.library = 'c++'
   end
 
   s.subspec 'coobjc' do |ss|
@@ -39,15 +35,18 @@ Pod::Spec.new do |s|
     ss.dependency 'WYCoobjc/cocore'
   end
 
-  s.subspec 'coswift' do |ss|
-    ss.requires_arc = true
-    ss.source_files = 'coswift/*.{h,swift}'
-    ss.swift_versions = ['4.2', '5.0', '5.1']
-    ss.dependency 'WYCoobjc/cocore'
+  s.subspec 'cokit' do |ss|
+    ss.source_files = 'cokit/cokit/**/*.{h,m}'
+    ss.dependency 'WYCoobjc/coobjc'
   end
 
 
 
+  # s.subspec 'coswift' do |ss|
+  #   ss.requires_arc = true
+  #   ss.source_files = 'coswift/*.{h,swift}'
+  #   ss.swift_versions = ['4.2', '5.0', '5.1']
+  #   ss.dependency 'WYCoobjc/cocore'
+  # end
 
-  s.dependency 'cocore', '~> 1.2.0'
 end

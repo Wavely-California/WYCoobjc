@@ -18,13 +18,13 @@
 
 #import <Foundation/Foundation.h>
 
-#import <cocore/cocore.h>
+#import <WYCoobjc/cocore.h>
 
-#import <coobjc/COCoroutine.h>
-#import <coobjc/COChan.h>
-#import <coobjc/COActor.h>
-#import <coobjc/COGenerator.h>
-#import <coobjc/co_tuple.h>
+#import <WYCoobjc/COCoroutine.h>
+#import <WYCoobjc/COChan.h>
+#import <WYCoobjc/COActor.h>
+#import <WYCoobjc/COGenerator.h>
+#import <WYCoobjc/co_tuple.h>
 
 #ifdef __cplusplus
 extern "C" {

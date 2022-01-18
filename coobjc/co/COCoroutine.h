@@ -17,10 +17,10 @@
 //   limitations under the License.
 
 #import <Foundation/Foundation.h>
-#import <cocore/coroutine.h>
-#import <cocore/CODispatch.h>
-#import <coobjc/COChan.h>
-#import <coobjc/COPromise.h>
+#import <WYCoobjc/coroutine.h>
+#import <WYCoobjc/CODispatch.h>
+#import <WYCoobjc/COChan.h>
+#import <WYCoobjc/COPromise.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

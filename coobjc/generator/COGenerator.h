@@ -6,7 +6,7 @@
 //  Copyright © 2019 Alibaba lnc. All rights reserved.
 //
 
-#import <coobjc/COCoroutine.h>
+#import <WYCoobjc/COCoroutine.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

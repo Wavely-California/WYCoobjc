@@ -1,0 +1,6 @@
+framework module WYCoobjc {
+  umbrella header "WYCoobjc-umbrella.h"
+
+  export *
+  module * { export * }
+}

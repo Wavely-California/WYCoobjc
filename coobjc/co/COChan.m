@@ -17,7 +17,7 @@
 //   limitations under the License.
 
 #import "COChan.h"
-#import <cocore/cocore.h>
+#import <WYCoobjc/cocore.h>
 #import "COCoroutine.h"
 #import "COLock.h"
 #import "CODispatch.h"

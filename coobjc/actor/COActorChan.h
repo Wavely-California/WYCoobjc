@@ -18,8 +18,8 @@
 
 
 #import <Foundation/Foundation.h>
-#import <coobjc/COActorMessage.h>
-#import <coobjc/COChan.h>
+#import <WYCoobjc/COActorMessage.h>
+#import <WYCoobjc/COChan.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

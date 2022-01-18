@@ -1,0 +1,35 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - WYCoobjc (0.1.0):
+    - WYCoobjc/cocore (= 0.1.0)
+    - WYCoobjc/cokit (= 0.1.0)
+    - WYCoobjc/coobjc (= 0.1.0)
+  - WYCoobjc/cocore (0.1.0)
+  - WYCoobjc/cokit (0.1.0):
+    - WYCoobjc/coobjc
+  - WYCoobjc/coobjc (0.1.0):
+    - WYCoobjc/cocore
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - WYCoobjc (from `../`)
+
+SPEC REPOS:
+  trunk:
+    - FBSnapshotTestCase
+
+EXTERNAL SOURCES:
+  WYCoobjc:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  WYCoobjc: 33e956e840f20b7d60683d611e4268b674fc9b20
+
+PODFILE CHECKSUM: c81f23b2fac25941107b85116cccd29ee301ec37
+
+COCOAPODS: 1.10.2
