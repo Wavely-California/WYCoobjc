@@ -16,7 +16,7 @@
     "osx": "10.10"
   },
   "source": {
-    "git": "../",
+    "git": "git@github.com:Wavely-California/WYCoobjc.git",
     "tag": "0.1.0"
   },
   "subspecs": [
