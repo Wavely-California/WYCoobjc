@@ -20,8 +20,8 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = '8.0'
   s.osx.deployment_target = '10.10'
 
-  # s.source =  { :git => "git@github.com:Wavely-California/wavely_coobjc.git", :tag => s.version }
-  s.source =  { :git => "../", :tag => s.version }
+  s.source =  { :git => "git@github.com:Wavely-California/wavely_coobjc.git", :tag => s.version }
+  # s.source =  { :git => "../", :tag => s.version }
 
   s.subspec 'cocore' do |ss|
     ss.source_files = 'cocore/*.{h,m,s,c,mm}'
