@@ -18,7 +18,6 @@ Pod::Spec.new do |s|
   s.author       = { "pengyutang125" => "pengyutang125@sina.com" }
 
   s.ios.deployment_target = '8.0'
-  s.osx.deployment_target = '10.10'
 
   s.source =  { :git => "git@github.com:Wavely-California/WYCoobjc.git", :tag => s.version }
   # s.source =  { :git => "../", :tag => s.version }
@@ -35,10 +34,10 @@ Pod::Spec.new do |s|
     ss.dependency 'WYCoobjc/cocore'
   end
 
-  s.subspec 'cokit' do |ss|
-    ss.source_files = 'cokit/cokit/**/*.{h,m}'
-    ss.dependency 'WYCoobjc/coobjc'
-  end
+  # s.subspec 'cokit' do |ss|
+  #   ss.source_files = 'cokit/cokit/**/*.{h,m}'
+  #   ss.dependency 'WYCoobjc/coobjc'
+  # end
 
 
 
